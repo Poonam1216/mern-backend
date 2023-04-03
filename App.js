@@ -93,10 +93,6 @@ app.get('/api/resources', async(req, res) => {
   })
 });
 
-// Resource.find({}, (err, resources) => {
-//     if (err) return console.error(err);
-//     res.send(resources);
-//   });
 
 
 app.listen(3001, () => {
@@ -105,10 +101,3 @@ app.listen(3001, () => {
 
 
 
-
-/**
- * Resource.find({}, (err, resources) => {
-    if (err) return console.error(err);
-    res.send(resources);
-  });
- */
